@@ -1,0 +1,18 @@
+NAME
+    Archive::Parity - makes parity file; recover files
+
+SYNOPSIS
+	use Archive::Parity;
+
+    # to make a parity file from a list of files:
+    Archive::Parity::do_parity (out_filename, filename1, filename2, filename3);
+
+    # to recover a lost file:
+    # use the same command, placing the lost file name in front of the list:
+    Archive::Parity::do_parity (filename1, out_filename, filename2, filename3);
+
+    The parity file must have a ".par" extension.
+
+AUTHOR
+
+    Flávio Soibelmann Glock - fglock@pucrs.br

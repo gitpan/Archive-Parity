@@ -1,0 +1,10 @@
+lib/Archive/Parity.pm
+
+MANIFEST
+Makefile.PL
+Readme
+
+t/parity.t
+
+eg/do_parity.pl
+
